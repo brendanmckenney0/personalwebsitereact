@@ -19,29 +19,28 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a fourth year <b>Computer Science</b> major at
-        <a href="https://www.utoronto.ca/about-u-of-t">
+        I am currently a Support Engineer at
+        <a href="https://www.mach7t.com">
           {" "}
-          University of Toronto
+          Mach7 Technologies
         </a>
-        . After graduation, I will be joining{" "}
-        <a href="https://www.aboutamazon.com/">Amazon</a> as a{" "}
-        <b>Software Development Engineer</b> while undertaking a part-time
-        <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        . I'm currently working on a variety of personal projects, which can be found under Projects.{" "}
+        <a href="https://www.aboutamazon.com/"></a>{" "}
+        <b></b> 
+        <b> </b><b></b>{" "}
+        <a href="https://www.ox.ac.uk/about"></a>
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Aside from my professional life, I enjoy skiing and hiking whenever I can.
       </p>
     );
     const three = (
       <p>
-        <b>Want to chat?</b> Shoot me a message at{" "}
-        <a href="mailto:gazi.jarin@mail.utoronto.ca">
-          gazi.jarin@mail.utoronto.ca
+        <b>Want to chat?</b> Send me a message at{" "}
+        <a href="mailto:brendanmckenney@gmail.com">
+          brendanmckenney@gmail.com
         </a>{" "}
         and let's talk.
       </p>

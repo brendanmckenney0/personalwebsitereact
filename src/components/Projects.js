@@ -24,7 +24,7 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
+      /* "No Man's Land": {
         title: "no man's land",
         desc:
           "A third-person survival-mode game where you battle against time and space to return to Earth.",
@@ -32,8 +32,8 @@ class Projects extends React.Component {
         link: "https://github.com/slakh96/no-mans-land",
         open: "https://gazijarin.itch.io/no-mans-land",
         image: "/assets/nomansland.png"
-      },
-      Truth: {
+      }, */
+      /* Truth: {
         title: "truth",
         desc:
           "A three.js simulation of the planet system revolving around a monolith.",
@@ -41,8 +41,8 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/truth",
         open: "https://gazijarin.github.io/Truth/",
         image: "/assets/truth.png"
-      },
-      "Tall Tales": {
+      }, */
+      /* "Tall Tales": {
         title: "tall tales",
         desc:
           "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
@@ -50,8 +50,8 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/TallTales",
         open: "https://talltales.herokuapp.com/",
         image: "/assets/talltales.png"
-      },
-      Portfolio: {
+      }, */
+      /* Portfolio: {
         title: "portfolio.js",
         desc:
           "A small JS library that helps with clear and succinct data presentation.",
@@ -59,49 +59,33 @@ class Projects extends React.Component {
         link: "https://github.com/gazijarin/Portfolio.js",
         open: "https://afternoon-ocean-92382.herokuapp.com/",
         image: "/assets/portfolio.png"
-      }
+      } */
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Incident Response Toolkit": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "A toolkit to analyze system information on a windows system prior to a suspected security incident.",
+        techStack: "Powershell",
+        link: "https://github.com/brendanmckenney0/IncidentResponseToolkit",
       },
-      "Adam A.I.": {
+      "C-W-S": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "A web scraper utility that gathers html using a URL.",
+        techStack: "Python",
+        link: "https://github.com/brendanmckenney0/A-W-S/blob/main/main.py",
       },
-      "Distributed Logging and Monitoring System": {
+      "URL Shortener": {
         desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
+          "A URL shortening program that utlizies the bit.ly api to shorten links.",
+        techStack: "Python",
         link:
           "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
       },
-      "Odin Bot": {
+      "Password Saver": {
         desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
-        open: ""
-      },
-      "Game Centre": {
-        desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
-        open: ""
-      },
-      "Minimax Stonehenge": {
-        desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
+          "A Password Manager written in Python which encrypts passwords with a caesar cypher.",
         techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
+        link: "https://github.com/brendanmckenney0/Password-Saver/",
         open: ""
       }
     };

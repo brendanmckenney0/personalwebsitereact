@@ -82,30 +82,30 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+    "Mach7 Technologies": {
+      jobTitle: "Support Engineer @",
+      duration: "JAN 2022 - PRESENT",
       desc: [
-        "Collaborate with experienced cross-disciplinary Amazonians to conceive, design, and bring innovative products and services to market.",
-        "Design and build innovative technologies in a large distributed computing environment and help lead fundamental changes in the industry.",
-        "Build distributed storage, index, and query systems that are scalable, fault-tolerant, low cost, and easy to manage/use."
+        "Collaborate with experienced cross-disciplinary teams to provide a full spectrum of support to customers across the planet.",
+        "Learn the ins and outs of multiple software products and provide engineering solutions and troubleshooting in an effective manner.",
+        "Perform complex infrastructure maintenance critical to patient care to a wide range of systems and environments."
       ]
     },
-    Wattpad: {
-      jobTitle: "Software Engineering Intern @",
-      duration: "MAY 2020 - APR 2021",
+    "The University of Vermont Health Network": {
+      jobTitle: "IT Support Technician",
+      duration: "June 2021 - JAN 2022",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
+        "Responsible for providing remote technical and general computer support to all users of The University of Vermont Health Network's computer systems and applications.",
+        "Coordinated services across all IT Teams to effectively provide support to the entire user base. (14,000+ users).",
         "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
       ]
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
+    "The Bank Policy Institute": {
+      jobTitle: "Fraud Reduction and Cybersecurity Intern",
       duration: "MAY 2021 - SEPT 2021",
       desc: [
-        "Developing and researching an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Participating in the development and facilitation of in-person meetings that host high-profile representatives of the financial services industry.",
+        "Participating in the development of core project initiatives and deliverables that may include whitepapers, advisories, surveys and the aggregation and analyzing of technology risk data."
       ]
     },
     // Centivizer: {
@@ -123,7 +123,7 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
+    /* "Orange Gate": {
       jobTitle: "Software Engineering Intern @",
       duration: "MAY 2019 - AUG 2019",
       desc: [
@@ -131,7 +131,7 @@ const JobList = () => {
         "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
         "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
       ]
-    }
+    } */
   };
 
   const handleChange = (event, newValue) => {
