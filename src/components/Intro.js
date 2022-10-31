@@ -34,7 +34,7 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle"></div>
           <div className="intro-desc">
-            I'm an IT professional based in Burlington, VT. I'm interested in creating products that utilize emerging technologies. I'm currently working as a Support Engineer supporting products and engineering solutions for customers across the globe.
+            I'm an IT professional based in Burlington, VT. I'm interested in creating and supporting products that utilize emerging technologies. I'm currently working as a Support Engineer supporting products and engineering solutions for customers across the globe.
           </div>
           <a
             href="mailto:brendanmckenney@gmail.com"

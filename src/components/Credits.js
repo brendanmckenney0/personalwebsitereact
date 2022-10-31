@@ -21,6 +21,7 @@ class Credits extends React.Component {
       <FadeInSection>
         <div id="credits">
           <div className="ending-credits">
+            <div>I'm open to work and actively applying. You can view my resume <a href="https://drive.google.com/file/d/1zjexOJHmbGWdOZEtdrmeEgV0FyyZcm29/view?usp=sharing"> {" "} here. </a></div>
             <div>Built by Brendan McKenney. <a href="https://github.com/gazijarin/Gazi"> {" "} Inspired by this. </a> </div>
             <div>All rights reserved. ©</div>
           </div>

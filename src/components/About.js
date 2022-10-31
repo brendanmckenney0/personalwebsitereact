@@ -24,8 +24,7 @@ class About extends React.Component {
           {" "}
           Mach7 Technologies
         </a>
-        . I'm currently working on a variety of personal projects, which can be found under Projects.{" "}
-        <a href="https://www.aboutamazon.com/"></a>{" "}
+        . I'm always working on a variety of personal projects, which can be found below.{" "}
         <b></b> 
         <b> </b><b></b>{" "}
         <a href="https://www.ox.ac.uk/about"></a>
