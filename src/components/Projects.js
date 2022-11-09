@@ -68,7 +68,7 @@ class Projects extends React.Component {
         techStack: "Powershell",
         link: "https://github.com/brendanmckenney0/IncidentResponseToolkit",
       },
-      "C-W-S": {
+      "A-W-S": {
         desc:
           "A web scraper utility that gathers html using a URL.",
         techStack: "Python",
@@ -79,7 +79,7 @@ class Projects extends React.Component {
           "A URL shortening program that utlizies the bit.ly api to shorten links.",
         techStack: "Python",
         link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
+          "https://github.com/brendanmckenney0/UShorten"
       },
       "Password Saver": {
         desc:
